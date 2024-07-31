@@ -1,0 +1,47 @@
+.border
+{
+    border: 2px solid pink;
+    margin: 4px 4px;
+}
+.flex
+{
+    display: flex;
+}
+.justify-centre
+{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.rounded
+{
+    border-radius: 7px;
+}
+.m-1
+{
+    margin: 10px;
+}
+.p-1
+{
+    padding: 10px;
+}
+/* For Webkit based browsers (Google Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+    background-color: #000; /* background color of the scrollbar track */
+}
+
+/* For Webkit based browsers (Google Chrome, Safari, etc.) */
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* color of the scrollbar thumb */
+    border-radius: 5px; /* radius of the scrollbar thumb */
+}
+
+/* For Firefox */
+/* You may need to use this vendor prefix */
+/* -moz-scrollbar for Firefox, but note that Firefox doesn't support many customizations */
+/* You might not be able to achieve black scrollbar in Firefox */
+/* You can test it on the latest version of Firefox to see if it works */
+/* Keep in mind that this may change as browsers get updated */
+/* For more consistent results, you may need to rely on JavaScript libraries or polyfills */
